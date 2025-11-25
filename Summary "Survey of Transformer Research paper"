@@ -1,0 +1,69 @@
+Summary of "A Survey of Transformers" by Tianyang Lin, Yuxin Wang, Xiangyang Liu, and Xipeng Qiu
+
+__Overview:__
+
+"A Survey of Transformers" provides a comprehensive overview of the Transformer architecture, its evolution, variants, training strategies, and applications across multiple domains. This paper acts as a central reference for understanding how Transformers became the backbone of modern AI.
+
+__Key Objectives of the Paper__
+* To explain the Transformer architecture and its components.
+* To categorize different Transformer variants.
+* To explore how Transformers are used in NLP, Vision, Speech, and Multimodal tasks.
+* To highlight limitations and open research challenges.
+
+Core Concepts Explained
+
+**1. Self-Attention Mechanism**
+
+The core idea behind Transformers is the **self-attention** mechanism, which helps the model focus on important parts of the input sequence. Unlike RNNs, Transformers do not rely on recurrence.
+
+**2. Multi-Head Attention**
+
+Multiple attention heads allow the model to capture different types of relationships between tokens.
+
+**3. Positional Encoding**
+
+Transformers need positional encodings to retain the order of sequence data.
+
+**4. Feed Forward Networks**
+
+Each layer contains fully connected networks that strengthen feature extraction.
+
+
+__Domain-specific Transformers:__
+* Vision Transformers (ViT)
+* Speech Transformers
+* Graph Transformers
+
+__Applications Across Domains:__
+| Domain                          | Examples                                                   |
+| ------------------------------- | ---------------------------------------------------------- |
+| **Natural Language Processing** | Translation, text classification, Q&A                      |
+| **Computer Vision**             | Image classification, object detection, image segmentation |
+| **Speech**                      | Speech recognition, audio processing                       |
+| **Multimodal**                  | Image + text models (e.g., CLIP)                           |
+| **Reinforcement Learning**      | Decision Transformer                                       |
+
+__Why Transformers Became So Popular:__
+* High parallelization → faster training
+* Better long-range dependency handling
+* Scalable to massive datasets
+* Works across different data types (text, images, audio)
+* Strong performance in most benchmarks
+
+__Challenges Mentioned in the Paper:__
+* High computational cost
+* Memory limitations
+* Difficulty in interpretability
+* Data-hungry training requirements
+* Efficient deployment on edge devices
+
+__Future Research Directions:__
+* More efficient and compressed models
+* Better interpretability techniques
+* Cross-domain and multimodal learning
+* Training with limited data
+* Real-time and low-power Transformer variants
+
+__Citation:__
+Lin, Tianyang, Yuxin Wang, Xiangyang Liu, and Xipeng Qiu. "A Survey of Transformers." arXiv preprint arXiv:2106.04554 (2021).
+
